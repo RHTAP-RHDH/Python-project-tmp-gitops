@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: Python-pipeline-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/Python-project-tmp-gitops
